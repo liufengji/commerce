@@ -1,0 +1,1152 @@
+Running Spark version 2.1.1
+Changing view acls to: Administrator
+Changing modify acls to: Administrator
+Changing view acls groups to: 
+Changing modify acls groups to: 
+SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Administrator); groups with view permissions: Set(); users  with modify permissions: Set(Administrator); groups with modify permissions: Set()
+Successfully started service 'sparkDriver' on port 12406.
+Registering MapOutputTracker
+Registering BlockManagerMaster
+Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+BlockManagerMasterEndpoint up
+Created local directory at C:\Users\Administrator\AppData\Local\Temp\blockmgr-6747b1c0-13a0-4680-830d-08290b2dd7e2
+MemoryStore started with capacity 1977.9 MB
+Registering OutputCommitCoordinator
+Logging initialized @3010ms
+jetty-9.2.z-SNAPSHOT
+Started o.s.j.s.ServletContextHandler@4a067c25{/jobs,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@a1217f9{/jobs/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3bde62ff{/jobs/job,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@523424b5{/jobs/job/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2baa8d82{/stages,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@319dead1{/stages/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@791cbf87{/stages/stage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@a7e2d9d{/stages/stage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@754777cd{/stages/pool,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2b52c0d6{/stages/pool/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@372ea2bc{/storage,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4cc76301{/storage/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@2f08c4b{/storage/rdd,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@3f19b8b3{/storage/rdd/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7de0c6ae{/environment,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@a486d78{/environment/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@cdc3aae{/executors,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7ef2d7a6{/executors/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5dcbb60{/executors/threadDump,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@4c36250e{/executors/threadDump/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@21526f6c{/static,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@49f5c307{/,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@299266e2{/api,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@5471388b{/jobs/job/kill,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@66ea1466{/stages/stage/kill,null,AVAILABLE,@Spark}
+Started Spark@29876704{HTTP/1.1}{0.0.0.0:4040}
+Started @3148ms
+Successfully started service 'SparkUI' on port 4040.
+Bound SparkUI to 0.0.0.0, and started at http://169.254.13.102:4040
+Starting executor ID driver on host localhost
+Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 12447.
+Server created on 169.254.13.102:12447
+Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+Registering BlockManager BlockManagerId(driver, 169.254.13.102, 12447, None)
+Registering block manager 169.254.13.102:12447 with 1977.9 MB RAM, BlockManagerId(driver, 169.254.13.102, 12447, None)
+Registered BlockManager BlockManagerId(driver, 169.254.13.102, 12447, None)
+Initialized BlockManager: BlockManagerId(driver, 169.254.13.102, 12447, None)
+Started o.s.j.s.ServletContextHandler@3af37506{/metrics/json,null,AVAILABLE,@Spark}
+Warehouse path is 'file:/E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/'.
+Started o.s.j.s.ServletContextHandler@534243e4{/SQL,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@470a9030{/SQL/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@53b98ff6{/SQL/execution,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@7fcff1b9{/SQL/execution/json,null,AVAILABLE,@Spark}
+Started o.s.j.s.ServletContextHandler@66eb985d{/static/sql,null,AVAILABLE,@Spark}
+Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+mapred.committer.job.setup.cleanup.needed is deprecated. Instead, use mapreduce.job.committer.setup.cleanup.needed
+mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+ObjectStore, initialize called
+Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+Property datanucleus.cache.level2 unknown - will be ignored
+Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+Using direct SQL, underlying DB is DERBY
+Initialized ObjectStore
+Added admin role in metastore
+Added public role in metastore
+No user is added in admin role, since config is empty
+0: get_all_databases
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_all_databases	
+0: get_functions: db=default pat=*
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+Created local directory: C:/Users/ADMINI~1/AppData/Local/Temp/f953808e-aa00-4013-aba9-3f79bfdaecfd_resources
+Created HDFS directory: /tmp/hive/Administrator/f953808e-aa00-4013-aba9-3f79bfdaecfd
+Created local directory: C:/Users/ADMINI~1/AppData/Local/Temp/Administrator/f953808e-aa00-4013-aba9-3f79bfdaecfd
+Created HDFS directory: /tmp/hive/Administrator/f953808e-aa00-4013-aba9-3f79bfdaecfd/_tmp_space.db
+Warehouse location for Hive client (version 1.2.1) is file:/E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/
+0: get_database: default
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_database: default	
+0: get_database: global_temp
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_database: global_temp	
+Failed to get database global_temp, returning NoSuchObjectException
+Parsing command: select * from user_visit_action where date >= ' 2018-11-05 and date <=2018-11-09'
+0: get_table : db=default tbl=user_visit_action
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_table : db=default tbl=user_visit_action	
+Parsing command: string
+Parsing command: int
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+0: get_table : db=default tbl=user_visit_action
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_table : db=default tbl=user_visit_action	
+Parsing command: string
+Parsing command: int
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Pruning directories with: 
+Post-Scan Filters: isnotnull(date#0),(date#0 >=  2018-11-05 and date <=2018-11-09)
+Output Data Schema: struct<date: string, user_id: int, session_id: string, page_id: string, action_time: string ... 11 more fields>
+Pushed Filters: IsNotNull(date),GreaterThanOrEqual(date, 2018-11-05 and date <=2018-11-09)
+Code generated in 339.829348 ms
+Block broadcast_0 stored as values in memory (estimated size 149.0 KB, free 1977.8 MB)
+Block broadcast_0_piece0 stored as bytes in memory (estimated size 15.3 KB, free 1977.7 MB)
+Added broadcast_0_piece0 in memory on 169.254.13.102:12447 (size: 15.3 KB, free: 1977.9 MB)
+Created broadcast 0 from rdd at SessionAnalysis.scala:47
+Planning scan with bin packing, max size: 4287268 bytes, open cost is considered as scanning 4194304 bytes.
+Parsing command: select * from user_info
+0: get_table : db=default tbl=user_info
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_table : db=default tbl=user_info	
+Parsing command: int
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+0: get_table : db=default tbl=user_info
+ugi=Administrator	ip=unknown-ip-addr	cmd=get_table : db=default tbl=user_info	
+Parsing command: int
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Parsing command: string
+Pruning directories with: 
+Post-Scan Filters: 
+Output Data Schema: struct<user_id: int, username: string, name: string, age: string, professional: string ... 5 more fields>
+Pushed Filters: 
+Code generated in 17.734432 ms
+Block broadcast_1 stored as values in memory (estimated size 142.6 KB, free 1977.6 MB)
+Block broadcast_1_piece0 stored as bytes in memory (estimated size 15.1 KB, free 1977.6 MB)
+Added broadcast_1_piece0 in memory on 169.254.13.102:12447 (size: 15.1 KB, free: 1977.9 MB)
+Created broadcast 1 from rdd at SessionAnalysis.scala:108
+Planning scan with bin packing, max size: 4196144 bytes, open cost is considered as scanning 4194304 bytes.
+Starting job: count at SessionAnalysis.scala:180
+Registering RDD 11 (map at SessionAnalysis.scala:110)
+Registering RDD 4 (map at SessionAnalysis.scala:50)
+Registering RDD 6 (map at SessionAnalysis.scala:56)
+Got job 0 (count at SessionAnalysis.scala:180) with 8 output partitions
+Final stage: ResultStage 3 (count at SessionAnalysis.scala:180)
+Parents of final stage: List(ShuffleMapStage 0, ShuffleMapStage 2)
+Missing parents: List(ShuffleMapStage 0, ShuffleMapStage 2)
+Submitting ShuffleMapStage 0 (MapPartitionsRDD[11] at map at SessionAnalysis.scala:110), which has no missing parents
+Block broadcast_2 stored as values in memory (estimated size 16.7 KB, free 1977.6 MB)
+Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.7 KB, free 1977.6 MB)
+Added broadcast_2_piece0 in memory on 169.254.13.102:12447 (size: 7.7 KB, free: 1977.9 MB)
+Created broadcast 2 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[11] at map at SessionAnalysis.scala:110)
+Adding task set 0.0 with 8 tasks
+Submitting ShuffleMapStage 1 (MapPartitionsRDD[4] at map at SessionAnalysis.scala:50), which has no missing parents
+Block broadcast_3 stored as values in memory (estimated size 24.4 KB, free 1977.5 MB)
+Block broadcast_3_piece0 stored as bytes in memory (estimated size 9.8 KB, free 1977.5 MB)
+Added broadcast_3_piece0 in memory on 169.254.13.102:12447 (size: 9.8 KB, free: 1977.9 MB)
+Created broadcast 3 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[4] at map at SessionAnalysis.scala:50)
+Adding task set 1.0 with 8 tasks
+Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 6505 bytes)
+Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 6505 bytes)
+Starting task 2.0 in stage 0.0 (TID 2, localhost, executor driver, partition 2, PROCESS_LOCAL, 6505 bytes)
+Starting task 3.0 in stage 0.0 (TID 3, localhost, executor driver, partition 3, PROCESS_LOCAL, 6505 bytes)
+Starting task 4.0 in stage 0.0 (TID 4, localhost, executor driver, partition 4, PROCESS_LOCAL, 6505 bytes)
+Starting task 5.0 in stage 0.0 (TID 5, localhost, executor driver, partition 5, PROCESS_LOCAL, 6505 bytes)
+Starting task 6.0 in stage 0.0 (TID 6, localhost, executor driver, partition 6, PROCESS_LOCAL, 6505 bytes)
+Starting task 7.0 in stage 0.0 (TID 7, localhost, executor driver, partition 7, PROCESS_LOCAL, 6505 bytes)
+Running task 6.0 in stage 0.0 (TID 6)
+Running task 4.0 in stage 0.0 (TID 4)
+Running task 7.0 in stage 0.0 (TID 7)
+Running task 1.0 in stage 0.0 (TID 1)
+Running task 3.0 in stage 0.0 (TID 3)
+Running task 5.0 in stage 0.0 (TID 5)
+Running task 2.0 in stage 0.0 (TID 2)
+Running task 0.0 in stage 0.0 (TID 0)
+Code generated in 19.014778 ms
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00002-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1847, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00006-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1826, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00000-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1808, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00005-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1821, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00004-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1847, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00001-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1863, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00007-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1839, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_info/part-00003-dd84b797-6022-4edc-9680-66389da0b06a.snappy.parquet, range: 0-1870, partition values: [empty row]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Got brand-new decompressor [.snappy]
+Finished task 7.0 in stage 0.0 (TID 7). 1905 bytes result sent to driver
+Finished task 3.0 in stage 0.0 (TID 3). 1905 bytes result sent to driver
+Finished task 1.0 in stage 0.0 (TID 1). 1905 bytes result sent to driver
+Finished task 0.0 in stage 0.0 (TID 0). 1905 bytes result sent to driver
+Finished task 2.0 in stage 0.0 (TID 2). 1815 bytes result sent to driver
+Finished task 5.0 in stage 0.0 (TID 5). 1905 bytes result sent to driver
+Finished task 6.0 in stage 0.0 (TID 6). 1815 bytes result sent to driver
+Starting task 0.0 in stage 1.0 (TID 8, localhost, executor driver, partition 0, PROCESS_LOCAL, 6513 bytes)
+Running task 0.0 in stage 1.0 (TID 8)
+Starting task 1.0 in stage 1.0 (TID 9, localhost, executor driver, partition 1, PROCESS_LOCAL, 6513 bytes)
+Starting task 2.0 in stage 1.0 (TID 10, localhost, executor driver, partition 2, PROCESS_LOCAL, 6513 bytes)
+Running task 2.0 in stage 1.0 (TID 10)
+Running task 1.0 in stage 1.0 (TID 9)
+Starting task 3.0 in stage 1.0 (TID 11, localhost, executor driver, partition 3, PROCESS_LOCAL, 6513 bytes)
+Running task 3.0 in stage 1.0 (TID 11)
+Finished task 4.0 in stage 0.0 (TID 4). 1905 bytes result sent to driver
+Starting task 4.0 in stage 1.0 (TID 12, localhost, executor driver, partition 4, PROCESS_LOCAL, 6513 bytes)
+Starting task 5.0 in stage 1.0 (TID 13, localhost, executor driver, partition 5, PROCESS_LOCAL, 6513 bytes)
+Running task 5.0 in stage 1.0 (TID 13)
+Finished task 7.0 in stage 0.0 (TID 7) in 1263 ms on localhost (executor driver) (1/8)
+Finished task 2.0 in stage 0.0 (TID 2) in 1278 ms on localhost (executor driver) (2/8)
+Finished task 5.0 in stage 0.0 (TID 5) in 1278 ms on localhost (executor driver) (3/8)
+Starting task 6.0 in stage 1.0 (TID 14, localhost, executor driver, partition 6, PROCESS_LOCAL, 6513 bytes)
+Finished task 3.0 in stage 0.0 (TID 3) in 1291 ms on localhost (executor driver) (4/8)
+Running task 6.0 in stage 1.0 (TID 14)
+Finished task 6.0 in stage 0.0 (TID 6) in 1291 ms on localhost (executor driver) (5/8)
+Starting task 7.0 in stage 1.0 (TID 15, localhost, executor driver, partition 7, PROCESS_LOCAL, 6513 bytes)
+Running task 4.0 in stage 1.0 (TID 12)
+Finished task 1.0 in stage 0.0 (TID 1) in 1324 ms on localhost (executor driver) (6/8)
+Running task 7.0 in stage 1.0 (TID 15)
+Finished task 0.0 in stage 0.0 (TID 0) in 1343 ms on localhost (executor driver) (7/8)
+Code generated in 90.227851 ms
+Finished task 4.0 in stage 0.0 (TID 4) in 1327 ms on localhost (executor driver) (8/8)
+ShuffleMapStage 0 (map at SessionAnalysis.scala:110) finished in 1.369 s
+Removed TaskSet 0.0, whose tasks have all completed, from pool 
+looking for newly runnable stages
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00004-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93160, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00002-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92684, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00007-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93607, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00001-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92736, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00003-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93023, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00005-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92867, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00000-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93494, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00006-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92147, partition values: [empty row]
+running: Set(ShuffleMapStage 1)
+waiting: Set(ShuffleMapStage 2, ResultStage 3)
+failed: Set()
+Finished task 4.0 in stage 1.0 (TID 12). 1953 bytes result sent to driver
+Finished task 4.0 in stage 1.0 (TID 12) in 1533 ms on localhost (executor driver) (1/8)
+Removed broadcast_2_piece0 on 169.254.13.102:12447 in memory (size: 7.7 KB, free: 1977.9 MB)
+Finished task 7.0 in stage 1.0 (TID 15). 1953 bytes result sent to driver
+Finished task 7.0 in stage 1.0 (TID 15) in 1504 ms on localhost (executor driver) (2/8)
+Finished task 6.0 in stage 1.0 (TID 14). 1953 bytes result sent to driver
+Finished task 6.0 in stage 1.0 (TID 14) in 1532 ms on localhost (executor driver) (3/8)
+Finished task 0.0 in stage 1.0 (TID 8). 1953 bytes result sent to driver
+Finished task 0.0 in stage 1.0 (TID 8) in 1661 ms on localhost (executor driver) (4/8)
+Finished task 2.0 in stage 1.0 (TID 10). 1953 bytes result sent to driver
+Finished task 2.0 in stage 1.0 (TID 10) in 1653 ms on localhost (executor driver) (5/8)
+Finished task 3.0 in stage 1.0 (TID 11). 1863 bytes result sent to driver
+Finished task 3.0 in stage 1.0 (TID 11) in 1651 ms on localhost (executor driver) (6/8)
+Finished task 5.0 in stage 1.0 (TID 13). 1953 bytes result sent to driver
+Finished task 5.0 in stage 1.0 (TID 13) in 1612 ms on localhost (executor driver) (7/8)
+Finished task 1.0 in stage 1.0 (TID 9). 1953 bytes result sent to driver
+Finished task 1.0 in stage 1.0 (TID 9) in 1772 ms on localhost (executor driver) (8/8)
+Removed TaskSet 1.0, whose tasks have all completed, from pool 
+ShuffleMapStage 1 (map at SessionAnalysis.scala:50) finished in 2.957 s
+looking for newly runnable stages
+running: Set()
+waiting: Set(ShuffleMapStage 2, ResultStage 3)
+failed: Set()
+Submitting ShuffleMapStage 2 (MapPartitionsRDD[6] at map at SessionAnalysis.scala:56), which has no missing parents
+Block broadcast_4 stored as values in memory (estimated size 25.3 KB, free 1977.5 MB)
+Block broadcast_4_piece0 stored as bytes in memory (estimated size 10.2 KB, free 1977.5 MB)
+Added broadcast_4_piece0 in memory on 169.254.13.102:12447 (size: 10.2 KB, free: 1977.9 MB)
+Created broadcast 4 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[6] at map at SessionAnalysis.scala:56)
+Adding task set 2.0 with 8 tasks
+Starting task 0.0 in stage 2.0 (TID 16, localhost, executor driver, partition 0, ANY, 5655 bytes)
+Starting task 1.0 in stage 2.0 (TID 17, localhost, executor driver, partition 1, ANY, 5655 bytes)
+Starting task 2.0 in stage 2.0 (TID 18, localhost, executor driver, partition 2, ANY, 5655 bytes)
+Starting task 3.0 in stage 2.0 (TID 19, localhost, executor driver, partition 3, ANY, 5655 bytes)
+Starting task 4.0 in stage 2.0 (TID 20, localhost, executor driver, partition 4, ANY, 5655 bytes)
+Starting task 5.0 in stage 2.0 (TID 21, localhost, executor driver, partition 5, ANY, 5655 bytes)
+Starting task 6.0 in stage 2.0 (TID 22, localhost, executor driver, partition 6, ANY, 5655 bytes)
+Starting task 7.0 in stage 2.0 (TID 23, localhost, executor driver, partition 7, ANY, 5655 bytes)
+Running task 3.0 in stage 2.0 (TID 19)
+Running task 5.0 in stage 2.0 (TID 21)
+Running task 6.0 in stage 2.0 (TID 22)
+Running task 4.0 in stage 2.0 (TID 20)
+Running task 2.0 in stage 2.0 (TID 18)
+Running task 0.0 in stage 2.0 (TID 16)
+Running task 1.0 in stage 2.0 (TID 17)
+Running task 7.0 in stage 2.0 (TID 23)
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 12 ms
+Started 0 remote fetches in 13 ms
+Started 0 remote fetches in 13 ms
+Started 0 remote fetches in 9 ms
+Started 0 remote fetches in 10 ms
+Started 0 remote fetches in 11 ms
+Started 0 remote fetches in 14 ms
+Started 0 remote fetches in 10 ms
+Removed broadcast_3_piece0 on 169.254.13.102:12447 in memory (size: 9.8 KB, free: 1977.9 MB)
+Finished task 1.0 in stage 2.0 (TID 17). 2677 bytes result sent to driver
+Finished task 1.0 in stage 2.0 (TID 17) in 3343 ms on localhost (executor driver) (1/8)
+Finished task 6.0 in stage 2.0 (TID 22). 2500 bytes result sent to driver
+Finished task 6.0 in stage 2.0 (TID 22) in 3372 ms on localhost (executor driver) (2/8)
+Finished task 0.0 in stage 2.0 (TID 16). 2500 bytes result sent to driver
+Finished task 0.0 in stage 2.0 (TID 16) in 3386 ms on localhost (executor driver) (3/8)
+Finished task 5.0 in stage 2.0 (TID 21). 2500 bytes result sent to driver
+Finished task 5.0 in stage 2.0 (TID 21) in 3402 ms on localhost (executor driver) (4/8)
+Finished task 3.0 in stage 2.0 (TID 19). 2500 bytes result sent to driver
+Finished task 2.0 in stage 2.0 (TID 18). 2500 bytes result sent to driver
+Finished task 3.0 in stage 2.0 (TID 19) in 3409 ms on localhost (executor driver) (5/8)
+Finished task 2.0 in stage 2.0 (TID 18) in 3410 ms on localhost (executor driver) (6/8)
+Finished task 7.0 in stage 2.0 (TID 23). 2500 bytes result sent to driver
+Finished task 7.0 in stage 2.0 (TID 23) in 3421 ms on localhost (executor driver) (7/8)
+Finished task 4.0 in stage 2.0 (TID 20). 2590 bytes result sent to driver
+Finished task 4.0 in stage 2.0 (TID 20) in 3447 ms on localhost (executor driver) (8/8)
+Removed TaskSet 2.0, whose tasks have all completed, from pool 
+ShuffleMapStage 2 (map at SessionAnalysis.scala:56) finished in 3.454 s
+looking for newly runnable stages
+running: Set()
+waiting: Set(ResultStage 3)
+failed: Set()
+Submitting ResultStage 3 (MapPartitionsRDD[16] at filter at SessionAnalysis.scala:122), which has no missing parents
+Block broadcast_5 stored as values in memory (estimated size 4.1 KB, free 1977.5 MB)
+Block broadcast_5_piece0 stored as bytes in memory (estimated size 2.3 KB, free 1977.5 MB)
+Added broadcast_5_piece0 in memory on 169.254.13.102:12447 (size: 2.3 KB, free: 1977.9 MB)
+Created broadcast 5 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ResultStage 3 (MapPartitionsRDD[16] at filter at SessionAnalysis.scala:122)
+Adding task set 3.0 with 8 tasks
+Starting task 0.0 in stage 3.0 (TID 24, localhost, executor driver, partition 0, PROCESS_LOCAL, 5729 bytes)
+Starting task 1.0 in stage 3.0 (TID 25, localhost, executor driver, partition 1, PROCESS_LOCAL, 5729 bytes)
+Starting task 2.0 in stage 3.0 (TID 26, localhost, executor driver, partition 2, PROCESS_LOCAL, 5729 bytes)
+Starting task 3.0 in stage 3.0 (TID 27, localhost, executor driver, partition 3, PROCESS_LOCAL, 5729 bytes)
+Starting task 4.0 in stage 3.0 (TID 28, localhost, executor driver, partition 4, PROCESS_LOCAL, 5729 bytes)
+Starting task 5.0 in stage 3.0 (TID 29, localhost, executor driver, partition 5, PROCESS_LOCAL, 5729 bytes)
+Starting task 6.0 in stage 3.0 (TID 30, localhost, executor driver, partition 6, PROCESS_LOCAL, 5729 bytes)
+Starting task 7.0 in stage 3.0 (TID 31, localhost, executor driver, partition 7, PROCESS_LOCAL, 5729 bytes)
+Running task 2.0 in stage 3.0 (TID 26)
+Running task 4.0 in stage 3.0 (TID 28)
+Running task 7.0 in stage 3.0 (TID 31)
+Running task 3.0 in stage 3.0 (TID 27)
+Running task 1.0 in stage 3.0 (TID 25)
+Running task 5.0 in stage 3.0 (TID 29)
+Running task 0.0 in stage 3.0 (TID 24)
+Running task 6.0 in stage 3.0 (TID 30)
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Started 0 remote fetches in 0 ms
+Started 0 remote fetches in 0 ms
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Started 0 remote fetches in 2 ms
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Finished task 3.0 in stage 3.0 (TID 27). 2106 bytes result sent to driver
+Finished task 4.0 in stage 3.0 (TID 28). 2201 bytes result sent to driver
+Finished task 7.0 in stage 3.0 (TID 31). 2111 bytes result sent to driver
+Finished task 4.0 in stage 3.0 (TID 28) in 49 ms on localhost (executor driver) (1/8)
+Finished task 3.0 in stage 3.0 (TID 27) in 49 ms on localhost (executor driver) (2/8)
+Finished task 7.0 in stage 3.0 (TID 31) in 49 ms on localhost (executor driver) (3/8)
+Finished task 6.0 in stage 3.0 (TID 30). 2201 bytes result sent to driver
+Finished task 2.0 in stage 3.0 (TID 26). 2196 bytes result sent to driver
+Finished task 5.0 in stage 3.0 (TID 29). 2111 bytes result sent to driver
+Finished task 6.0 in stage 3.0 (TID 30) in 51 ms on localhost (executor driver) (4/8)
+Finished task 5.0 in stage 3.0 (TID 29) in 53 ms on localhost (executor driver) (5/8)
+Finished task 2.0 in stage 3.0 (TID 26) in 54 ms on localhost (executor driver) (6/8)
+Finished task 0.0 in stage 3.0 (TID 24). 2106 bytes result sent to driver
+Finished task 0.0 in stage 3.0 (TID 24) in 60 ms on localhost (executor driver) (7/8)
+Finished task 1.0 in stage 3.0 (TID 25). 2196 bytes result sent to driver
+Finished task 1.0 in stage 3.0 (TID 25) in 70 ms on localhost (executor driver) (8/8)
+Removed TaskSet 3.0, whose tasks have all completed, from pool 
+ResultStage 3 (count at SessionAnalysis.scala:180) finished in 0.072 s
+Job 0 finished: count at SessionAnalysis.scala:180, took 6.639614 s
+Code generated in 108.54142 ms
+Starting job: save at SessionAnalysis.scala:245
+Got job 1 (save at SessionAnalysis.scala:245) with 8 output partitions
+Final stage: ResultStage 4 (save at SessionAnalysis.scala:245)
+Parents of final stage: List()
+Missing parents: List()
+Submitting ResultStage 4 (MapPartitionsRDD[21] at save at SessionAnalysis.scala:245), which has no missing parents
+Block broadcast_6 stored as values in memory (estimated size 23.9 KB, free 1977.5 MB)
+Block broadcast_6_piece0 stored as bytes in memory (estimated size 8.4 KB, free 1977.5 MB)
+Added broadcast_6_piece0 in memory on 169.254.13.102:12447 (size: 8.4 KB, free: 1977.8 MB)
+Created broadcast 6 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ResultStage 4 (MapPartitionsRDD[21] at save at SessionAnalysis.scala:245)
+Adding task set 4.0 with 8 tasks
+Starting task 0.0 in stage 4.0 (TID 32, localhost, executor driver, partition 0, PROCESS_LOCAL, 6013 bytes)
+Starting task 1.0 in stage 4.0 (TID 33, localhost, executor driver, partition 1, PROCESS_LOCAL, 6013 bytes)
+Starting task 2.0 in stage 4.0 (TID 34, localhost, executor driver, partition 2, PROCESS_LOCAL, 6013 bytes)
+Starting task 3.0 in stage 4.0 (TID 35, localhost, executor driver, partition 3, PROCESS_LOCAL, 6013 bytes)
+Starting task 4.0 in stage 4.0 (TID 36, localhost, executor driver, partition 4, PROCESS_LOCAL, 6013 bytes)
+Starting task 5.0 in stage 4.0 (TID 37, localhost, executor driver, partition 5, PROCESS_LOCAL, 6013 bytes)
+Starting task 6.0 in stage 4.0 (TID 38, localhost, executor driver, partition 6, PROCESS_LOCAL, 6013 bytes)
+Starting task 7.0 in stage 4.0 (TID 39, localhost, executor driver, partition 7, PROCESS_LOCAL, 6656 bytes)
+Running task 3.0 in stage 4.0 (TID 35)
+Running task 4.0 in stage 4.0 (TID 36)
+Running task 7.0 in stage 4.0 (TID 39)
+Running task 2.0 in stage 4.0 (TID 34)
+Running task 5.0 in stage 4.0 (TID 37)
+Running task 1.0 in stage 4.0 (TID 33)
+Running task 0.0 in stage 4.0 (TID 32)
+Running task 6.0 in stage 4.0 (TID 38)
+Code generated in 44.462888 ms
+Finished task 4.0 in stage 4.0 (TID 36). 1228 bytes result sent to driver
+Finished task 3.0 in stage 4.0 (TID 35). 1149 bytes result sent to driver
+Finished task 1.0 in stage 4.0 (TID 33). 1149 bytes result sent to driver
+Finished task 5.0 in stage 4.0 (TID 37). 1228 bytes result sent to driver
+Finished task 3.0 in stage 4.0 (TID 35) in 124 ms on localhost (executor driver) (1/8)
+Finished task 1.0 in stage 4.0 (TID 33) in 126 ms on localhost (executor driver) (2/8)
+Finished task 4.0 in stage 4.0 (TID 36) in 123 ms on localhost (executor driver) (3/8)
+Finished task 2.0 in stage 4.0 (TID 34). 1141 bytes result sent to driver
+Finished task 5.0 in stage 4.0 (TID 37) in 124 ms on localhost (executor driver) (4/8)
+Finished task 2.0 in stage 4.0 (TID 34) in 132 ms on localhost (executor driver) (5/8)
+Finished task 6.0 in stage 4.0 (TID 38). 1231 bytes result sent to driver
+Finished task 6.0 in stage 4.0 (TID 38) in 140 ms on localhost (executor driver) (6/8)
+Finished task 0.0 in stage 4.0 (TID 32). 1062 bytes result sent to driver
+Finished task 0.0 in stage 4.0 (TID 32) in 157 ms on localhost (executor driver) (7/8)
+Finished task 7.0 in stage 4.0 (TID 39). 1141 bytes result sent to driver
+Finished task 7.0 in stage 4.0 (TID 39) in 160 ms on localhost (executor driver) (8/8)
+Removed TaskSet 4.0, whose tasks have all completed, from pool 
+ResultStage 4 (save at SessionAnalysis.scala:245) finished in 0.171 s
+Job 1 finished: save at SessionAnalysis.scala:245, took 0.237305 s
+Starting job: countByKey at SessionAnalysis.scala:262
+Size of output statuses for shuffle 2 is 232 bytes
+Size of output statuses for shuffle 0 is 232 bytes
+Size of output statuses for shuffle 1 is 206 bytes
+Registering RDD 27 (countByKey at SessionAnalysis.scala:262)
+Got job 2 (countByKey at SessionAnalysis.scala:262) with 8 output partitions
+Final stage: ResultStage 9 (countByKey at SessionAnalysis.scala:262)
+Parents of final stage: List(ShuffleMapStage 8)
+Missing parents: List(ShuffleMapStage 8)
+Submitting ShuffleMapStage 8 (MapPartitionsRDD[27] at countByKey at SessionAnalysis.scala:262), which has no missing parents
+Block broadcast_7 stored as values in memory (estimated size 5.1 KB, free 1977.5 MB)
+Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.7 KB, free 1977.5 MB)
+Added broadcast_7_piece0 in memory on 169.254.13.102:12447 (size: 2.7 KB, free: 1977.8 MB)
+Created broadcast 7 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 8 (MapPartitionsRDD[27] at countByKey at SessionAnalysis.scala:262)
+Adding task set 8.0 with 8 tasks
+Starting task 0.0 in stage 8.0 (TID 40, localhost, executor driver, partition 0, PROCESS_LOCAL, 5806 bytes)
+Starting task 1.0 in stage 8.0 (TID 41, localhost, executor driver, partition 1, PROCESS_LOCAL, 5806 bytes)
+Starting task 2.0 in stage 8.0 (TID 42, localhost, executor driver, partition 2, PROCESS_LOCAL, 5806 bytes)
+Starting task 3.0 in stage 8.0 (TID 43, localhost, executor driver, partition 3, PROCESS_LOCAL, 5806 bytes)
+Starting task 4.0 in stage 8.0 (TID 44, localhost, executor driver, partition 4, PROCESS_LOCAL, 5806 bytes)
+Starting task 5.0 in stage 8.0 (TID 45, localhost, executor driver, partition 5, PROCESS_LOCAL, 5806 bytes)
+Starting task 6.0 in stage 8.0 (TID 46, localhost, executor driver, partition 6, PROCESS_LOCAL, 5806 bytes)
+Starting task 7.0 in stage 8.0 (TID 47, localhost, executor driver, partition 7, PROCESS_LOCAL, 5806 bytes)
+Running task 0.0 in stage 8.0 (TID 40)
+Running task 5.0 in stage 8.0 (TID 45)
+Running task 6.0 in stage 8.0 (TID 46)
+Running task 3.0 in stage 8.0 (TID 43)
+Running task 2.0 in stage 8.0 (TID 42)
+Running task 7.0 in stage 8.0 (TID 47)
+Running task 4.0 in stage 8.0 (TID 44)
+Running task 1.0 in stage 8.0 (TID 41)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 2 ms
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 4 ms
+Started 0 remote fetches in 3 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 3 ms
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 17 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 14 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 57 ms
+Started 0 remote fetches in 5 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 100 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Block rdd_16_6 stored as values in memory (estimated size 211.8 KB, free 1977.3 MB)
+Added rdd_16_6 in memory on 169.254.13.102:12447 (size: 211.8 KB, free: 1977.6 MB)
+Block rdd_16_4 stored as values in memory (estimated size 236.0 KB, free 1977.1 MB)
+Added rdd_16_4 in memory on 169.254.13.102:12447 (size: 236.0 KB, free: 1977.4 MB)
+Block rdd_16_3 stored as values in memory (estimated size 224.3 KB, free 1976.8 MB)
+Added rdd_16_3 in memory on 169.254.13.102:12447 (size: 224.3 KB, free: 1977.2 MB)
+Block rdd_16_0 stored as values in memory (estimated size 231.4 KB, free 1976.6 MB)
+Added rdd_16_0 in memory on 169.254.13.102:12447 (size: 231.4 KB, free: 1977.0 MB)
+Block rdd_16_2 stored as values in memory (estimated size 222.4 KB, free 1976.4 MB)
+Added rdd_16_2 in memory on 169.254.13.102:12447 (size: 222.4 KB, free: 1976.7 MB)
+Block rdd_16_7 stored as values in memory (estimated size 204.0 KB, free 1976.2 MB)
+Added rdd_16_7 in memory on 169.254.13.102:12447 (size: 204.0 KB, free: 1976.5 MB)
+Block rdd_16_5 stored as values in memory (estimated size 221.5 KB, free 1976.0 MB)
+Added rdd_16_5 in memory on 169.254.13.102:12447 (size: 221.5 KB, free: 1976.3 MB)
+Finished task 0.0 in stage 8.0 (TID 40). 3216 bytes result sent to driver
+Finished task 2.0 in stage 8.0 (TID 42). 3126 bytes result sent to driver
+Finished task 2.0 in stage 8.0 (TID 42) in 318 ms on localhost (executor driver) (1/8)
+Finished task 0.0 in stage 8.0 (TID 40) in 325 ms on localhost (executor driver) (2/8)
+Block rdd_16_1 stored as values in memory (estimated size 218.6 KB, free 1975.8 MB)
+Finished task 4.0 in stage 8.0 (TID 44). 3131 bytes result sent to driver
+Finished task 3.0 in stage 8.0 (TID 43). 3216 bytes result sent to driver
+Finished task 6.0 in stage 8.0 (TID 46). 3221 bytes result sent to driver
+Added rdd_16_1 in memory on 169.254.13.102:12447 (size: 218.6 KB, free: 1976.1 MB)
+Finished task 4.0 in stage 8.0 (TID 44) in 326 ms on localhost (executor driver) (3/8)
+Finished task 3.0 in stage 8.0 (TID 43) in 329 ms on localhost (executor driver) (4/8)
+Finished task 7.0 in stage 8.0 (TID 47). 3131 bytes result sent to driver
+Finished task 6.0 in stage 8.0 (TID 46) in 327 ms on localhost (executor driver) (5/8)
+Finished task 7.0 in stage 8.0 (TID 47) in 327 ms on localhost (executor driver) (6/8)
+Finished task 5.0 in stage 8.0 (TID 45). 3221 bytes result sent to driver
+Finished task 5.0 in stage 8.0 (TID 45) in 331 ms on localhost (executor driver) (7/8)
+Finished task 1.0 in stage 8.0 (TID 41). 3126 bytes result sent to driver
+Finished task 1.0 in stage 8.0 (TID 41) in 355 ms on localhost (executor driver) (8/8)
+Removed TaskSet 8.0, whose tasks have all completed, from pool 
+ShuffleMapStage 8 (countByKey at SessionAnalysis.scala:262) finished in 0.358 s
+looking for newly runnable stages
+running: Set()
+waiting: Set(ResultStage 9)
+failed: Set()
+Submitting ResultStage 9 (ShuffledRDD[28] at countByKey at SessionAnalysis.scala:262), which has no missing parents
+Block broadcast_8 stored as values in memory (estimated size 3.2 KB, free 1975.8 MB)
+Block broadcast_8_piece0 stored as bytes in memory (estimated size 1971.0 B, free 1975.8 MB)
+Added broadcast_8_piece0 in memory on 169.254.13.102:12447 (size: 1971.0 B, free: 1976.1 MB)
+Created broadcast 8 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ResultStage 9 (ShuffledRDD[28] at countByKey at SessionAnalysis.scala:262)
+Adding task set 9.0 with 8 tasks
+Starting task 0.0 in stage 9.0 (TID 48, localhost, executor driver, partition 0, ANY, 5754 bytes)
+Starting task 1.0 in stage 9.0 (TID 49, localhost, executor driver, partition 1, ANY, 5754 bytes)
+Starting task 2.0 in stage 9.0 (TID 50, localhost, executor driver, partition 2, ANY, 5754 bytes)
+Starting task 3.0 in stage 9.0 (TID 51, localhost, executor driver, partition 3, ANY, 5754 bytes)
+Starting task 4.0 in stage 9.0 (TID 52, localhost, executor driver, partition 4, ANY, 5754 bytes)
+Starting task 5.0 in stage 9.0 (TID 53, localhost, executor driver, partition 5, ANY, 5754 bytes)
+Starting task 6.0 in stage 9.0 (TID 54, localhost, executor driver, partition 6, ANY, 5754 bytes)
+Starting task 7.0 in stage 9.0 (TID 55, localhost, executor driver, partition 7, ANY, 5754 bytes)
+Running task 1.0 in stage 9.0 (TID 49)
+Running task 2.0 in stage 9.0 (TID 50)
+Running task 7.0 in stage 9.0 (TID 55)
+Running task 5.0 in stage 9.0 (TID 53)
+Getting 4 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 3 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Running task 3.0 in stage 9.0 (TID 51)
+Running task 0.0 in stage 9.0 (TID 48)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 3 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 7 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 6 ms
+Getting 5 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Finished task 2.0 in stage 9.0 (TID 50). 1889 bytes result sent to driver
+Finished task 5.0 in stage 9.0 (TID 53). 1823 bytes result sent to driver
+Running task 4.0 in stage 9.0 (TID 52)
+Finished task 1.0 in stage 9.0 (TID 49). 1744 bytes result sent to driver
+Running task 6.0 in stage 9.0 (TID 54)
+Finished task 7.0 in stage 9.0 (TID 55). 1787 bytes result sent to driver
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 2 ms
+Finished task 3.0 in stage 9.0 (TID 51). 1925 bytes result sent to driver
+Finished task 0.0 in stage 9.0 (TID 48). 1787 bytes result sent to driver
+Finished task 2.0 in stage 9.0 (TID 50) in 37 ms on localhost (executor driver) (1/8)
+Finished task 5.0 in stage 9.0 (TID 53) in 35 ms on localhost (executor driver) (2/8)
+Finished task 3.0 in stage 9.0 (TID 51) in 37 ms on localhost (executor driver) (3/8)
+Finished task 7.0 in stage 9.0 (TID 55) in 34 ms on localhost (executor driver) (4/8)
+Finished task 1.0 in stage 9.0 (TID 49) in 40 ms on localhost (executor driver) (5/8)
+Finished task 0.0 in stage 9.0 (TID 48) in 41 ms on localhost (executor driver) (6/8)
+Finished task 6.0 in stage 9.0 (TID 54). 1708 bytes result sent to driver
+Finished task 4.0 in stage 9.0 (TID 52). 1862 bytes result sent to driver
+Finished task 6.0 in stage 9.0 (TID 54) in 41 ms on localhost (executor driver) (7/8)
+Finished task 4.0 in stage 9.0 (TID 52) in 44 ms on localhost (executor driver) (8/8)
+Removed TaskSet 9.0, whose tasks have all completed, from pool 
+ResultStage 9 (countByKey at SessionAnalysis.scala:262) finished in 0.047 s
+Job 2 finished: countByKey at SessionAnalysis.scala:262, took 0.676571 s
+Block broadcast_9 stored as values in memory (estimated size 6.5 KB, free 1975.8 MB)
+Block broadcast_9_piece0 stored as bytes in memory (estimated size 1047.0 B, free 1975.8 MB)
+Added broadcast_9_piece0 in memory on 169.254.13.102:12447 (size: 1047.0 B, free: 1976.1 MB)
+Created broadcast 9 from broadcast at SessionAnalysis.scala:342
+Code generated in 33.258972 ms
+Starting job: save at SessionAnalysis.scala:386
+Size of output statuses for shuffle 2 is 232 bytes
+Size of output statuses for shuffle 0 is 232 bytes
+Size of output statuses for shuffle 1 is 206 bytes
+Registering RDD 26 (map at SessionAnalysis.scala:255)
+Got job 3 (save at SessionAnalysis.scala:386) with 8 output partitions
+Final stage: ResultStage 14 (save at SessionAnalysis.scala:386)
+Parents of final stage: List(ShuffleMapStage 13)
+Missing parents: List(ShuffleMapStage 13)
+Submitting ShuffleMapStage 13 (MapPartitionsRDD[26] at map at SessionAnalysis.scala:255), which has no missing parents
+Block broadcast_10 stored as values in memory (estimated size 5.3 KB, free 1975.8 MB)
+Block broadcast_10_piece0 stored as bytes in memory (estimated size 2.7 KB, free 1975.8 MB)
+Added broadcast_10_piece0 in memory on 169.254.13.102:12447 (size: 2.7 KB, free: 1976.1 MB)
+Created broadcast 10 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 13 (MapPartitionsRDD[26] at map at SessionAnalysis.scala:255)
+Adding task set 13.0 with 8 tasks
+Starting task 0.0 in stage 13.0 (TID 56, localhost, executor driver, partition 0, PROCESS_LOCAL, 5841 bytes)
+Starting task 1.0 in stage 13.0 (TID 57, localhost, executor driver, partition 1, PROCESS_LOCAL, 5841 bytes)
+Starting task 2.0 in stage 13.0 (TID 58, localhost, executor driver, partition 2, PROCESS_LOCAL, 5841 bytes)
+Starting task 3.0 in stage 13.0 (TID 59, localhost, executor driver, partition 3, PROCESS_LOCAL, 5841 bytes)
+Starting task 4.0 in stage 13.0 (TID 60, localhost, executor driver, partition 4, PROCESS_LOCAL, 5841 bytes)
+Starting task 5.0 in stage 13.0 (TID 61, localhost, executor driver, partition 5, PROCESS_LOCAL, 5841 bytes)
+Starting task 6.0 in stage 13.0 (TID 62, localhost, executor driver, partition 6, PROCESS_LOCAL, 5841 bytes)
+Starting task 7.0 in stage 13.0 (TID 63, localhost, executor driver, partition 7, PROCESS_LOCAL, 5841 bytes)
+Running task 0.0 in stage 13.0 (TID 56)
+Running task 5.0 in stage 13.0 (TID 61)
+Running task 3.0 in stage 13.0 (TID 59)
+Running task 4.0 in stage 13.0 (TID 60)
+Running task 6.0 in stage 13.0 (TID 62)
+Running task 7.0 in stage 13.0 (TID 63)
+Found block rdd_16_3 locally
+Found block rdd_16_6 locally
+Found block rdd_16_7 locally
+Found block rdd_16_4 locally
+Found block rdd_16_5 locally
+Running task 2.0 in stage 13.0 (TID 58)
+Finished task 4.0 in stage 13.0 (TID 60). 1564 bytes result sent to driver
+Running task 1.0 in stage 13.0 (TID 57)
+Found block rdd_16_0 locally
+Found block rdd_16_1 locally
+Finished task 6.0 in stage 13.0 (TID 62). 1564 bytes result sent to driver
+Found block rdd_16_2 locally
+Finished task 5.0 in stage 13.0 (TID 61). 1564 bytes result sent to driver
+Finished task 4.0 in stage 13.0 (TID 60) in 57 ms on localhost (executor driver) (1/8)
+Finished task 6.0 in stage 13.0 (TID 62) in 57 ms on localhost (executor driver) (2/8)
+Finished task 7.0 in stage 13.0 (TID 63). 1564 bytes result sent to driver
+Finished task 7.0 in stage 13.0 (TID 63) in 59 ms on localhost (executor driver) (3/8)
+Finished task 5.0 in stage 13.0 (TID 61) in 66 ms on localhost (executor driver) (4/8)
+Finished task 3.0 in stage 13.0 (TID 59). 1564 bytes result sent to driver
+Finished task 3.0 in stage 13.0 (TID 59) in 99 ms on localhost (executor driver) (5/8)
+Finished task 0.0 in stage 13.0 (TID 56). 1564 bytes result sent to driver
+Finished task 0.0 in stage 13.0 (TID 56) in 105 ms on localhost (executor driver) (6/8)
+Finished task 1.0 in stage 13.0 (TID 57). 1564 bytes result sent to driver
+Finished task 1.0 in stage 13.0 (TID 57) in 105 ms on localhost (executor driver) (7/8)
+Finished task 2.0 in stage 13.0 (TID 58). 1741 bytes result sent to driver
+Finished task 2.0 in stage 13.0 (TID 58) in 111 ms on localhost (executor driver) (8/8)
+Removed TaskSet 13.0, whose tasks have all completed, from pool 
+ShuffleMapStage 13 (map at SessionAnalysis.scala:255) finished in 0.115 s
+looking for newly runnable stages
+running: Set()
+waiting: Set(ResultStage 14)
+failed: Set()
+Submitting ResultStage 14 (MapPartitionsRDD[34] at save at SessionAnalysis.scala:386), which has no missing parents
+Block broadcast_11 stored as values in memory (estimated size 24.4 KB, free 1975.7 MB)
+Block broadcast_11_piece0 stored as bytes in memory (estimated size 9.8 KB, free 1975.7 MB)
+Added broadcast_11_piece0 in memory on 169.254.13.102:12447 (size: 9.8 KB, free: 1976.1 MB)
+Created broadcast 11 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ResultStage 14 (MapPartitionsRDD[34] at save at SessionAnalysis.scala:386)
+Adding task set 14.0 with 8 tasks
+Starting task 0.0 in stage 14.0 (TID 64, localhost, executor driver, partition 0, ANY, 5789 bytes)
+Starting task 1.0 in stage 14.0 (TID 65, localhost, executor driver, partition 1, ANY, 5789 bytes)
+Starting task 2.0 in stage 14.0 (TID 66, localhost, executor driver, partition 2, ANY, 5789 bytes)
+Starting task 3.0 in stage 14.0 (TID 67, localhost, executor driver, partition 3, ANY, 5789 bytes)
+Starting task 4.0 in stage 14.0 (TID 68, localhost, executor driver, partition 4, ANY, 5789 bytes)
+Starting task 5.0 in stage 14.0 (TID 69, localhost, executor driver, partition 5, ANY, 5789 bytes)
+Starting task 6.0 in stage 14.0 (TID 70, localhost, executor driver, partition 6, ANY, 5789 bytes)
+Starting task 7.0 in stage 14.0 (TID 71, localhost, executor driver, partition 7, ANY, 5789 bytes)
+Running task 0.0 in stage 14.0 (TID 64)
+Running task 3.0 in stage 14.0 (TID 67)
+Running task 6.0 in stage 14.0 (TID 70)
+Running task 7.0 in stage 14.0 (TID 71)
+Running task 4.0 in stage 14.0 (TID 68)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 7 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Running task 2.0 in stage 14.0 (TID 66)
+Running task 1.0 in stage 14.0 (TID 65)
+Getting 4 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Running task 5.0 in stage 14.0 (TID 69)
+Getting 5 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 34 ms
+Getting 3 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Code generated in 59.679689 ms
+Finished task 7.0 in stage 14.0 (TID 71). 2092 bytes result sent to driver
+Finished task 7.0 in stage 14.0 (TID 71) in 205 ms on localhost (executor driver) (1/8)
+Finished task 0.0 in stage 14.0 (TID 64). 2171 bytes result sent to driver
+Finished task 0.0 in stage 14.0 (TID 64) in 271 ms on localhost (executor driver) (2/8)
+Finished task 5.0 in stage 14.0 (TID 69). 2171 bytes result sent to driver
+Finished task 4.0 in stage 14.0 (TID 68). 2171 bytes result sent to driver
+Finished task 1.0 in stage 14.0 (TID 65). 2171 bytes result sent to driver
+Finished task 6.0 in stage 14.0 (TID 70). 2171 bytes result sent to driver
+Finished task 2.0 in stage 14.0 (TID 66). 2092 bytes result sent to driver
+Finished task 5.0 in stage 14.0 (TID 69) in 290 ms on localhost (executor driver) (3/8)
+Finished task 6.0 in stage 14.0 (TID 70) in 290 ms on localhost (executor driver) (4/8)
+Finished task 4.0 in stage 14.0 (TID 68) in 292 ms on localhost (executor driver) (5/8)
+Finished task 1.0 in stage 14.0 (TID 65) in 296 ms on localhost (executor driver) (6/8)
+Finished task 2.0 in stage 14.0 (TID 66) in 295 ms on localhost (executor driver) (7/8)
+Finished task 3.0 in stage 14.0 (TID 67). 2171 bytes result sent to driver
+Finished task 3.0 in stage 14.0 (TID 67) in 457 ms on localhost (executor driver) (8/8)
+Removed TaskSet 14.0, whose tasks have all completed, from pool 
+ResultStage 14 (save at SessionAnalysis.scala:386) finished in 0.463 s
+Job 3 finished: save at SessionAnalysis.scala:386, took 0.620923 s
+Code generated in 67.748515 ms
+Starting job: save at SessionAnalysis.scala:420
+Size of output statuses for shuffle 2 is 232 bytes
+Size of output statuses for shuffle 0 is 232 bytes
+Size of output statuses for shuffle 1 is 206 bytes
+Size of output statuses for shuffle 4 is 230 bytes
+Registering RDD 35 (map at SessionAnalysis.scala:389)
+Registering RDD 4 (map at SessionAnalysis.scala:50)
+Registering RDD 16 (filter at SessionAnalysis.scala:122)
+Registering RDD 25 (map at SessionAnalysis.scala:251)
+Got job 4 (save at SessionAnalysis.scala:420) with 8 output partitions
+Final stage: ResultStage 23 (save at SessionAnalysis.scala:420)
+Parents of final stage: List(ShuffleMapStage 19, ShuffleMapStage 22)
+Missing parents: List(ShuffleMapStage 19, ShuffleMapStage 22)
+Submitting ShuffleMapStage 19 (MapPartitionsRDD[35] at map at SessionAnalysis.scala:389), which has no missing parents
+Block broadcast_12 stored as values in memory (estimated size 7.3 KB, free 1975.7 MB)
+Block broadcast_12_piece0 stored as bytes in memory (estimated size 3.6 KB, free 1975.7 MB)
+Added broadcast_12_piece0 in memory on 169.254.13.102:12447 (size: 3.6 KB, free: 1976.1 MB)
+Created broadcast 12 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 19 (MapPartitionsRDD[35] at map at SessionAnalysis.scala:389)
+Adding task set 19.0 with 8 tasks
+Submitting ShuffleMapStage 20 (MapPartitionsRDD[4] at map at SessionAnalysis.scala:50), which has no missing parents
+Starting task 0.0 in stage 19.0 (TID 72, localhost, executor driver, partition 0, ANY, 5778 bytes)
+Starting task 1.0 in stage 19.0 (TID 73, localhost, executor driver, partition 1, ANY, 5778 bytes)
+Starting task 2.0 in stage 19.0 (TID 74, localhost, executor driver, partition 2, ANY, 5778 bytes)
+Block broadcast_13 stored as values in memory (estimated size 23.5 KB, free 1975.7 MB)
+Starting task 3.0 in stage 19.0 (TID 75, localhost, executor driver, partition 3, ANY, 5778 bytes)
+Starting task 4.0 in stage 19.0 (TID 76, localhost, executor driver, partition 4, ANY, 5778 bytes)
+Starting task 5.0 in stage 19.0 (TID 77, localhost, executor driver, partition 5, ANY, 5778 bytes)
+Starting task 6.0 in stage 19.0 (TID 78, localhost, executor driver, partition 6, ANY, 5778 bytes)
+Block broadcast_13_piece0 stored as bytes in memory (estimated size 9.5 KB, free 1975.7 MB)
+Starting task 7.0 in stage 19.0 (TID 79, localhost, executor driver, partition 7, ANY, 5778 bytes)
+Running task 0.0 in stage 19.0 (TID 72)
+Running task 4.0 in stage 19.0 (TID 76)
+Running task 7.0 in stage 19.0 (TID 79)
+Running task 2.0 in stage 19.0 (TID 74)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 4 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Running task 1.0 in stage 19.0 (TID 73)
+Running task 5.0 in stage 19.0 (TID 77)
+Getting 3 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Finished task 1.0 in stage 19.0 (TID 73). 2201 bytes result sent to driver
+Finished task 2.0 in stage 19.0 (TID 74). 2291 bytes result sent to driver
+Running task 3.0 in stage 19.0 (TID 75)
+Running task 6.0 in stage 19.0 (TID 78)
+Added broadcast_13_piece0 in memory on 169.254.13.102:12447 (size: 9.5 KB, free: 1976.1 MB)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 43 ms
+Created broadcast 13 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 20 (MapPartitionsRDD[4] at map at SessionAnalysis.scala:50)
+Adding task set 20.0 with 8 tasks
+Getting 5 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 53 ms
+Getting 7 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 54 ms
+Finished task 4.0 in stage 19.0 (TID 76). 2291 bytes result sent to driver
+Finished task 0.0 in stage 19.0 (TID 72). 2291 bytes result sent to driver
+Finished task 1.0 in stage 19.0 (TID 73) in 99 ms on localhost (executor driver) (1/8)
+Finished task 7.0 in stage 19.0 (TID 79). 2291 bytes result sent to driver
+Finished task 2.0 in stage 19.0 (TID 74) in 99 ms on localhost (executor driver) (2/8)
+Starting task 0.0 in stage 20.0 (TID 80, localhost, executor driver, partition 0, PROCESS_LOCAL, 6636 bytes)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Starting task 1.0 in stage 20.0 (TID 81, localhost, executor driver, partition 1, PROCESS_LOCAL, 6636 bytes)
+Starting task 2.0 in stage 20.0 (TID 82, localhost, executor driver, partition 2, PROCESS_LOCAL, 6636 bytes)
+Running task 0.0 in stage 20.0 (TID 80)
+Starting task 3.0 in stage 20.0 (TID 83, localhost, executor driver, partition 3, PROCESS_LOCAL, 6636 bytes)
+Starting task 4.0 in stage 20.0 (TID 84, localhost, executor driver, partition 4, PROCESS_LOCAL, 6636 bytes)
+Running task 4.0 in stage 20.0 (TID 84)
+Submitting ShuffleMapStage 21 (MapPartitionsRDD[16] at filter at SessionAnalysis.scala:122), which has no missing parents
+Running task 2.0 in stage 20.0 (TID 82)
+Block broadcast_14 stored as values in memory (estimated size 4.0 KB, free 1975.7 MB)
+Block broadcast_14_piece0 stored as bytes in memory (estimated size 2.2 KB, free 1975.7 MB)
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00005-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92867, partition values: [empty row]
+Finished task 4.0 in stage 19.0 (TID 76) in 116 ms on localhost (executor driver) (3/8)
+Finished task 7.0 in stage 19.0 (TID 79) in 129 ms on localhost (executor driver) (4/8)
+Finished task 0.0 in stage 19.0 (TID 72) in 138 ms on localhost (executor driver) (5/8)
+Running task 1.0 in stage 20.0 (TID 81)
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00007-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93607, partition values: [empty row]
+Finished task 5.0 in stage 19.0 (TID 77). 2201 bytes result sent to driver
+Running task 3.0 in stage 20.0 (TID 83)
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00004-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93160, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00000-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93494, partition values: [empty row]
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00003-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-93023, partition values: [empty row]
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Starting task 5.0 in stage 20.0 (TID 85, localhost, executor driver, partition 5, PROCESS_LOCAL, 6636 bytes)
+Added broadcast_14_piece0 in memory on 169.254.13.102:12447 (size: 2.2 KB, free: 1976.1 MB)
+Finished task 5.0 in stage 19.0 (TID 77) in 195 ms on localhost (executor driver) (6/8)
+Running task 5.0 in stage 20.0 (TID 85)
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00001-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92736, partition values: [empty row]
+Created broadcast 14 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 21 (MapPartitionsRDD[16] at filter at SessionAnalysis.scala:122)
+Adding task set 21.0 with 8 tasks
+Finished task 6.0 in stage 19.0 (TID 78). 2201 bytes result sent to driver
+Starting task 6.0 in stage 20.0 (TID 86, localhost, executor driver, partition 6, PROCESS_LOCAL, 6636 bytes)
+Running task 6.0 in stage 20.0 (TID 86)
+Finished task 6.0 in stage 19.0 (TID 78) in 595 ms on localhost (executor driver) (7/8)
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00002-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92684, partition values: [empty row]
+Finished task 3.0 in stage 20.0 (TID 83). 1880 bytes result sent to driver
+Starting task 7.0 in stage 20.0 (TID 87, localhost, executor driver, partition 7, PROCESS_LOCAL, 6636 bytes)
+Running task 7.0 in stage 20.0 (TID 87)
+Finished task 3.0 in stage 20.0 (TID 83) in 557 ms on localhost (executor driver) (1/8)
+Finished task 1.0 in stage 20.0 (TID 81). 1880 bytes result sent to driver
+Reading File path: file:///E:/workspace/idea/jianshu/commerceheihouzi/commerce/spark-warehouse/user_visit_action/part-00006-6e48a146-596d-40ad-9b65-1fc5f39e1c28.snappy.parquet, range: 0-92147, partition values: [empty row]
+Finished task 0.0 in stage 20.0 (TID 80). 1880 bytes result sent to driver
+Starting task 0.0 in stage 21.0 (TID 88, localhost, executor driver, partition 0, PROCESS_LOCAL, 5841 bytes)
+Starting task 1.0 in stage 21.0 (TID 89, localhost, executor driver, partition 1, PROCESS_LOCAL, 5841 bytes)
+Running task 1.0 in stage 21.0 (TID 89)
+Finished task 0.0 in stage 20.0 (TID 80) in 583 ms on localhost (executor driver) (2/8)
+Running task 0.0 in stage 21.0 (TID 88)
+Finished task 1.0 in stage 20.0 (TID 81) in 580 ms on localhost (executor driver) (3/8)
+Finished task 3.0 in stage 19.0 (TID 75). 2291 bytes result sent to driver
+Starting task 2.0 in stage 21.0 (TID 90, localhost, executor driver, partition 2, PROCESS_LOCAL, 5841 bytes)
+Finished task 2.0 in stage 20.0 (TID 82). 1880 bytes result sent to driver
+Found block rdd_16_0 locally
+Running task 2.0 in stage 21.0 (TID 90)
+Found block rdd_16_1 locally
+ShuffleMapStage 19 (map at SessionAnalysis.scala:389) finished in 0.692 s
+looking for newly runnable stages
+running: Set(ShuffleMapStage 20, ShuffleMapStage 21)
+waiting: Set(ShuffleMapStage 22, ResultStage 23)
+failed: Set()
+Finished task 3.0 in stage 19.0 (TID 75) in 685 ms on localhost (executor driver) (8/8)
+Removed TaskSet 19.0, whose tasks have all completed, from pool 
+Found block rdd_16_2 locally
+Finished task 5.0 in stage 20.0 (TID 85). 1790 bytes result sent to driver
+Starting task 3.0 in stage 21.0 (TID 91, localhost, executor driver, partition 3, PROCESS_LOCAL, 5841 bytes)
+Starting task 4.0 in stage 21.0 (TID 92, localhost, executor driver, partition 4, PROCESS_LOCAL, 5841 bytes)
+Running task 3.0 in stage 21.0 (TID 91)
+Finished task 2.0 in stage 20.0 (TID 82) in 611 ms on localhost (executor driver) (4/8)
+Running task 4.0 in stage 21.0 (TID 92)
+Finished task 5.0 in stage 20.0 (TID 85) in 520 ms on localhost (executor driver) (5/8)
+Finished task 4.0 in stage 20.0 (TID 84). 1790 bytes result sent to driver
+Found block rdd_16_3 locally
+Found block rdd_16_4 locally
+Starting task 5.0 in stage 21.0 (TID 93, localhost, executor driver, partition 5, PROCESS_LOCAL, 5841 bytes)
+Running task 5.0 in stage 21.0 (TID 93)
+Finished task 4.0 in stage 20.0 (TID 84) in 615 ms on localhost (executor driver) (6/8)
+Found block rdd_16_5 locally
+Finished task 2.0 in stage 21.0 (TID 90). 1485 bytes result sent to driver
+Starting task 6.0 in stage 21.0 (TID 94, localhost, executor driver, partition 6, PROCESS_LOCAL, 5841 bytes)
+Running task 6.0 in stage 21.0 (TID 94)
+Finished task 2.0 in stage 21.0 (TID 90) in 97 ms on localhost (executor driver) (1/8)
+Found block rdd_16_6 locally
+Finished task 4.0 in stage 21.0 (TID 92). 1564 bytes result sent to driver
+Starting task 7.0 in stage 21.0 (TID 95, localhost, executor driver, partition 7, PROCESS_LOCAL, 5841 bytes)
+Running task 7.0 in stage 21.0 (TID 95)
+Finished task 4.0 in stage 21.0 (TID 92) in 111 ms on localhost (executor driver) (2/8)
+Found block rdd_16_7 locally
+Finished task 0.0 in stage 21.0 (TID 88). 1485 bytes result sent to driver
+Finished task 0.0 in stage 21.0 (TID 88) in 179 ms on localhost (executor driver) (3/8)
+Finished task 1.0 in stage 21.0 (TID 89). 1564 bytes result sent to driver
+Finished task 1.0 in stage 21.0 (TID 89) in 187 ms on localhost (executor driver) (4/8)
+Finished task 5.0 in stage 21.0 (TID 93). 1564 bytes result sent to driver
+Finished task 5.0 in stage 21.0 (TID 93) in 154 ms on localhost (executor driver) (5/8)
+Finished task 3.0 in stage 21.0 (TID 91). 1485 bytes result sent to driver
+Finished task 6.0 in stage 21.0 (TID 94). 1572 bytes result sent to driver
+Finished task 3.0 in stage 21.0 (TID 91) in 171 ms on localhost (executor driver) (6/8)
+Finished task 6.0 in stage 21.0 (TID 94) in 104 ms on localhost (executor driver) (7/8)
+Finished task 7.0 in stage 21.0 (TID 95). 1564 bytes result sent to driver
+Finished task 7.0 in stage 21.0 (TID 95) in 67 ms on localhost (executor driver) (8/8)
+Removed TaskSet 21.0, whose tasks have all completed, from pool 
+ShuffleMapStage 21 (filter at SessionAnalysis.scala:122) finished in 0.659 s
+looking for newly runnable stages
+running: Set(ShuffleMapStage 20)
+waiting: Set(ShuffleMapStage 22, ResultStage 23)
+failed: Set()
+Finished task 7.0 in stage 20.0 (TID 87). 1790 bytes result sent to driver
+Finished task 7.0 in stage 20.0 (TID 87) in 234 ms on localhost (executor driver) (7/8)
+Finished task 6.0 in stage 20.0 (TID 86). 1880 bytes result sent to driver
+Finished task 6.0 in stage 20.0 (TID 86) in 315 ms on localhost (executor driver) (8/8)
+Removed TaskSet 20.0, whose tasks have all completed, from pool 
+ShuffleMapStage 20 (map at SessionAnalysis.scala:50) finished in 0.851 s
+looking for newly runnable stages
+running: Set()
+waiting: Set(ShuffleMapStage 22, ResultStage 23)
+failed: Set()
+Submitting ShuffleMapStage 22 (MapPartitionsRDD[25] at map at SessionAnalysis.scala:251), which has no missing parents
+Block broadcast_15 stored as values in memory (estimated size 3.2 KB, free 1975.7 MB)
+Block broadcast_15_piece0 stored as bytes in memory (estimated size 1876.0 B, free 1975.7 MB)
+Added broadcast_15_piece0 in memory on 169.254.13.102:12447 (size: 1876.0 B, free: 1976.1 MB)
+Created broadcast 15 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ShuffleMapStage 22 (MapPartitionsRDD[25] at map at SessionAnalysis.scala:251)
+Adding task set 22.0 with 8 tasks
+Starting task 0.0 in stage 22.0 (TID 96, localhost, executor driver, partition 0, PROCESS_LOCAL, 5841 bytes)
+Starting task 1.0 in stage 22.0 (TID 97, localhost, executor driver, partition 1, PROCESS_LOCAL, 5841 bytes)
+Starting task 2.0 in stage 22.0 (TID 98, localhost, executor driver, partition 2, PROCESS_LOCAL, 5841 bytes)
+Starting task 3.0 in stage 22.0 (TID 99, localhost, executor driver, partition 3, PROCESS_LOCAL, 5841 bytes)
+Starting task 4.0 in stage 22.0 (TID 100, localhost, executor driver, partition 4, PROCESS_LOCAL, 5841 bytes)
+Starting task 5.0 in stage 22.0 (TID 101, localhost, executor driver, partition 5, PROCESS_LOCAL, 5841 bytes)
+Starting task 6.0 in stage 22.0 (TID 102, localhost, executor driver, partition 6, PROCESS_LOCAL, 5841 bytes)
+Starting task 7.0 in stage 22.0 (TID 103, localhost, executor driver, partition 7, PROCESS_LOCAL, 5841 bytes)
+Running task 2.0 in stage 22.0 (TID 98)
+Running task 6.0 in stage 22.0 (TID 102)
+Running task 1.0 in stage 22.0 (TID 97)
+Running task 7.0 in stage 22.0 (TID 103)
+Running task 5.0 in stage 22.0 (TID 101)
+Running task 4.0 in stage 22.0 (TID 100)
+Running task 3.0 in stage 22.0 (TID 99)
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 4 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 3 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 2 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Running task 0.0 in stage 22.0 (TID 96)
+Getting 8 non-empty blocks out of 8 blocks
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 131 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 135 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 131 ms
+Started 0 remote fetches in 112 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 90 ms
+Getting 8 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Removed broadcast_12_piece0 on 169.254.13.102:12447 in memory (size: 3.6 KB, free: 1976.1 MB)
+Removed broadcast_10_piece0 on 169.254.13.102:12447 in memory (size: 2.7 KB, free: 1976.1 MB)
+Removed broadcast_8_piece0 on 169.254.13.102:12447 in memory (size: 1971.0 B, free: 1976.1 MB)
+Cleaned accumulator 873
+Cleaned accumulator 1526
+Cleaned accumulator 1525
+Removed broadcast_11_piece0 on 169.254.13.102:12447 in memory (size: 9.8 KB, free: 1976.1 MB)
+Removed broadcast_14_piece0 on 169.254.13.102:12447 in memory (size: 2.2 KB, free: 1976.1 MB)
+Removed broadcast_6_piece0 on 169.254.13.102:12447 in memory (size: 8.4 KB, free: 1976.1 MB)
+Removed broadcast_7_piece0 on 169.254.13.102:12447 in memory (size: 2.7 KB, free: 1976.1 MB)
+Cleaned accumulator 1527
+Removed broadcast_5_piece0 on 169.254.13.102:12447 in memory (size: 2.3 KB, free: 1976.1 MB)
+Cleaned accumulator 872
+Cleaned accumulator 875
+Cleaned accumulator 874
+Cleaned accumulator 1524
+Removed broadcast_13_piece0 on 169.254.13.102:12447 in memory (size: 9.5 KB, free: 1976.1 MB)
+Cleaned shuffle 3
+Finished task 1.0 in stage 22.0 (TID 97). 2041 bytes result sent to driver
+Finished task 1.0 in stage 22.0 (TID 97) in 697 ms on localhost (executor driver) (1/8)
+Finished task 2.0 in stage 22.0 (TID 98). 2041 bytes result sent to driver
+Finished task 4.0 in stage 22.0 (TID 100). 2041 bytes result sent to driver
+Finished task 2.0 in stage 22.0 (TID 98) in 758 ms on localhost (executor driver) (2/8)
+Finished task 4.0 in stage 22.0 (TID 100) in 756 ms on localhost (executor driver) (3/8)
+Finished task 7.0 in stage 22.0 (TID 103). 2041 bytes result sent to driver
+Finished task 7.0 in stage 22.0 (TID 103) in 795 ms on localhost (executor driver) (4/8)
+Finished task 3.0 in stage 22.0 (TID 99). 2041 bytes result sent to driver
+Finished task 3.0 in stage 22.0 (TID 99) in 823 ms on localhost (executor driver) (5/8)
+Finished task 6.0 in stage 22.0 (TID 102). 2041 bytes result sent to driver
+Finished task 6.0 in stage 22.0 (TID 102) in 916 ms on localhost (executor driver) (6/8)
+Finished task 5.0 in stage 22.0 (TID 101). 2041 bytes result sent to driver
+Finished task 5.0 in stage 22.0 (TID 101) in 935 ms on localhost (executor driver) (7/8)
+Finished task 0.0 in stage 22.0 (TID 96). 2041 bytes result sent to driver
+Finished task 0.0 in stage 22.0 (TID 96) in 950 ms on localhost (executor driver) (8/8)
+Removed TaskSet 22.0, whose tasks have all completed, from pool 
+ShuffleMapStage 22 (map at SessionAnalysis.scala:251) finished in 0.950 s
+looking for newly runnable stages
+running: Set()
+waiting: Set(ResultStage 23)
+failed: Set()
+Submitting ResultStage 23 (MapPartitionsRDD[43] at save at SessionAnalysis.scala:420), which has no missing parents
+Block broadcast_16 stored as values in memory (estimated size 31.7 KB, free 1975.8 MB)
+Block broadcast_16_piece0 stored as bytes in memory (estimated size 10.5 KB, free 1975.8 MB)
+Added broadcast_16_piece0 in memory on 169.254.13.102:12447 (size: 10.5 KB, free: 1976.1 MB)
+Created broadcast 16 from broadcast at DAGScheduler.scala:996
+Submitting 8 missing tasks from ResultStage 23 (MapPartitionsRDD[43] at save at SessionAnalysis.scala:420)
+Adding task set 23.0 with 8 tasks
+Starting task 0.0 in stage 23.0 (TID 104, localhost, executor driver, partition 0, PROCESS_LOCAL, 5852 bytes)
+Starting task 1.0 in stage 23.0 (TID 105, localhost, executor driver, partition 1, PROCESS_LOCAL, 5852 bytes)
+Starting task 2.0 in stage 23.0 (TID 106, localhost, executor driver, partition 2, PROCESS_LOCAL, 5852 bytes)
+Starting task 3.0 in stage 23.0 (TID 107, localhost, executor driver, partition 3, PROCESS_LOCAL, 5852 bytes)
+Starting task 4.0 in stage 23.0 (TID 108, localhost, executor driver, partition 4, PROCESS_LOCAL, 5852 bytes)
+Starting task 5.0 in stage 23.0 (TID 109, localhost, executor driver, partition 5, PROCESS_LOCAL, 5852 bytes)
+Starting task 6.0 in stage 23.0 (TID 110, localhost, executor driver, partition 6, PROCESS_LOCAL, 5852 bytes)
+Starting task 7.0 in stage 23.0 (TID 111, localhost, executor driver, partition 7, PROCESS_LOCAL, 5852 bytes)
+Running task 0.0 in stage 23.0 (TID 104)
+Running task 3.0 in stage 23.0 (TID 107)
+Running task 5.0 in stage 23.0 (TID 109)
+Running task 4.0 in stage 23.0 (TID 108)
+Running task 7.0 in stage 23.0 (TID 111)
+Running task 1.0 in stage 23.0 (TID 105)
+Running task 2.0 in stage 23.0 (TID 106)
+Running task 6.0 in stage 23.0 (TID 110)
+Getting 3 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 5 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 3 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 2 ms
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 2 non-empty blocks out of 8 blocks
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Getting 4 non-empty blocks out of 8 blocks
+Getting 1 non-empty blocks out of 8 blocks
+Getting 4 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 6 ms
+Getting 6 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 8 ms
+Getting 2 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 8 ms
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 4 ms
+Started 0 remote fetches in 6 ms
+Started 0 remote fetches in 4 ms
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 1 ms
+Started 0 remote fetches in 4 ms
+Getting 1 non-empty blocks out of 8 blocks
+Started 0 remote fetches in 0 ms
+Removed broadcast_15_piece0 on 169.254.13.102:12447 in memory (size: 1876.0 B, free: 1976.1 MB)
+Code generated in 64.081298 ms
+Finished task 0.0 in stage 23.0 (TID 104). 2011 bytes result sent to driver
+Finished task 0.0 in stage 23.0 (TID 104) in 3269 ms on localhost (executor driver) (1/8)
+Finished task 6.0 in stage 23.0 (TID 110). 2101 bytes result sent to driver
+Finished task 6.0 in stage 23.0 (TID 110) in 3922 ms on localhost (executor driver) (2/8)
+Finished task 7.0 in stage 23.0 (TID 111). 2101 bytes result sent to driver
+Finished task 7.0 in stage 23.0 (TID 111) in 3949 ms on localhost (executor driver) (3/8)
+Finished task 2.0 in stage 23.0 (TID 106). 2011 bytes result sent to driver
+Finished task 2.0 in stage 23.0 (TID 106) in 4068 ms on localhost (executor driver) (4/8)
+Finished task 4.0 in stage 23.0 (TID 108). 2011 bytes result sent to driver
+Finished task 4.0 in stage 23.0 (TID 108) in 4108 ms on localhost (executor driver) (5/8)
+Finished task 1.0 in stage 23.0 (TID 105). 2101 bytes result sent to driver
+Finished task 1.0 in stage 23.0 (TID 105) in 4224 ms on localhost (executor driver) (6/8)
+Finished task 3.0 in stage 23.0 (TID 107). 2011 bytes result sent to driver
+Finished task 3.0 in stage 23.0 (TID 107) in 4398 ms on localhost (executor driver) (7/8)
+Finished task 5.0 in stage 23.0 (TID 109). 2011 bytes result sent to driver
+Finished task 5.0 in stage 23.0 (TID 109) in 4532 ms on localhost (executor driver) (8/8)
+Removed TaskSet 23.0, whose tasks have all completed, from pool 
+ResultStage 23 (save at SessionAnalysis.scala:420) finished in 4.534 s
+Job 4 finished: save at SessionAnalysis.scala:420, took 6.456222 s
+Stopped Spark@29876704{HTTP/1.1}{0.0.0.0:4040}
+Stopped o.s.j.s.ServletContextHandler@66ea1466{/stages/stage/kill,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@5471388b{/jobs/job/kill,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@299266e2{/api,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@49f5c307{/,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@21526f6c{/static,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@4c36250e{/executors/threadDump/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@5dcbb60{/executors/threadDump,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@7ef2d7a6{/executors/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@cdc3aae{/executors,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@a486d78{/environment/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@7de0c6ae{/environment,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@3f19b8b3{/storage/rdd/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@2f08c4b{/storage/rdd,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@4cc76301{/storage/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@372ea2bc{/storage,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@2b52c0d6{/stages/pool/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@754777cd{/stages/pool,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@a7e2d9d{/stages/stage/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@791cbf87{/stages/stage,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@319dead1{/stages/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@2baa8d82{/stages,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@523424b5{/jobs/job/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@3bde62ff{/jobs/job,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@a1217f9{/jobs/json,null,UNAVAILABLE,@Spark}
+Stopped o.s.j.s.ServletContextHandler@4a067c25{/jobs,null,UNAVAILABLE,@Spark}
+Stopped Spark web UI at http://169.254.13.102:4040
+MapOutputTrackerMasterEndpoint stopped!
+MemoryStore cleared
+BlockManager stopped
+BlockManagerMaster stopped
+OutputCommitCoordinator stopped!
+Successfully stopped SparkContext
+Shutdown hook called
+Deleting directory C:\Users\Administrator\AppData\Local\Temp\spark-477cc9ed-85a2-4ea1-8355-e887f355efbb
