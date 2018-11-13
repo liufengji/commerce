@@ -66,3 +66,4 @@ task.params.json={startDate:"2017-10-20", \
   categoryIds:"", \
   targetPageFlow:"1,2,3,4,5,6,7"}
 
+ok
