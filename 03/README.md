@@ -1,8 +1,8 @@
 
 
-Maven项目
+ Maven项目
 
---commerce
+ --commerce
 
     --mock  
         生产数据 -> Hive
