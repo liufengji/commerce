@@ -1,7 +1,9 @@
 
 
 Maven项目
-commerce
+
+--commerce
+
     --mock  
         生产数据 -> Hive
         生产数据到 -> kafka
